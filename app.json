@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Covid_19_Mobile",
-    "slug": "Covid_19_Mobile",
+    "name": "Covid 19 World Tracker",
+    "slug": "Covid_19_World_Tracker",
     "platforms": [
       "ios",
       "android",
@@ -9,7 +9,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/covid19logo.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,8 +21,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    }
+    "android": {
+      "package": "com.jiayiDev.Covid_19_World_Tracker",
+      "versionCode": 1
+    },
+    "description": "A Covid-19 Mobile Application for quick data updates on the world around us."
   }
 }
